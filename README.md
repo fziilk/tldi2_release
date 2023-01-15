@@ -57,7 +57,7 @@ red_leaf_spot       0.99      1.00      0.99        72
 To install all versions of the TLDI2, please run the following script in the terminal.
 
 ```commandline
-git@github.com:fziilk/tldi2_release.git
+git clone --branch models git@github.com:fziilk/tldi2_release.git
 ```
 
 ## Getting Predictions
