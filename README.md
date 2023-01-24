@@ -14,6 +14,14 @@ The model itself have two versions and build for different purposes.
 | TLDI2 G2      | A custom built CNN model. Build for lightness, however less accurate compared to the _TLDI2 ResNet50_ model.                                                                             |
 | TLDI ResNet50 | A CNN model built with transfer learning with a model base of the [ResNet50](https://in.mathworks.com/help/deeplearning/ref/resnet50.html). Build for accuracy, however heavy in size. |
 
+![TLDI2 G2 Architecture](https://raw.githubusercontent.com/fziilk/tldi2_release/master/tldi_g2.png)
+
+<p style="text-align: center; font-style: italic; opacity: 0.6;">TLDI2 G2 Architecture</p>
+
+![TLDI2 ResNet50 Architecture](https://raw.githubusercontent.com/fziilk/tldi2_release/master/tldi_resnet50.png)
+
+<p style="text-align: center; font-style: italic; opacity: 0.6;">TLDI2 ResNet50 Architecture</p>
+
 ### TLDI2 G2: Evaluation Results
 
 ```python
