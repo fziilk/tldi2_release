@@ -14,16 +14,15 @@ The model itself have two versions and build for different purposes.
 | TLDI2 G2      | A custom built CNN model. Build for lightness, however less accurate compared to the _TLDI2 ResNet50_ model.                                                                             |
 | TLDI ResNet50 | A CNN model built with transfer learning with a model base of the [ResNet50](https://in.mathworks.com/help/deeplearning/ref/resnet50.html). Build for accuracy, however heavy in size. |
 
-![TLDI2 G2 Architecture](https://raw.githubusercontent.com/fziilk/tldi2_release/master/tldi_g2.png)
+### TLDI G2
 
-<p style="text-align: center; font-style: italic; opacity: 0.6;">TLDI2 G2 Architecture</p>
+#### _Architecture_:
 
-![TLDI2 ResNet50 Architecture](https://raw.githubusercontent.com/fziilk/tldi2_release/master/tldi_resnet50.png)
+<a href="https://github.com/fziilk/tldi2_release">
+  <img src="https://raw.githubusercontent.com/fziilk/tldi2_release/master/tldi_g2.png" alt="TLDI2 G2 Architecture" width="1000" align="center"/>
+</a>
 
-<p style="text-align: center; font-style: italic; opacity: 0.6;">TLDI2 ResNet50 Architecture</p>
-
-### TLDI2 G2: Evaluation Results
-
+#### _Evaluation Results_
 ```python
                precision    recall  f1-score   support
 
@@ -41,7 +40,16 @@ red_leaf_spot       1.00      0.82      0.90        72
  weighted avg       0.84      0.82      0.82       444
 ```
 
-### TLDI2 ResNet50: Evaluation Results
+### TLDIResNet50 
+
+#### _Architecture_:
+
+<a href="https://github.com/fziilk/tldi2_release">
+  <img src="https://raw.githubusercontent.com/fziilk/tldi2_release/master/tldi_resnet50.png" alt="TLDI2 ResNet50 Architecture" width="500"/>
+</a>
+
+
+#### _Evaluation Results_:
 
 ```python
                precision    recall  f1-score   support
